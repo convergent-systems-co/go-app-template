@@ -1,0 +1,16 @@
+{
+  "name": "go-app",
+  "image": "mcr.microsoft.com/devcontainers/go:1-1.22-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "github.vscode-github-actions"
+      ]
+    }
+  }
+}
