@@ -1,6 +1,6 @@
 # go-app-template
 
-GitHub template repository for Go application projects in the
+GitHub template repository for Go CLI application projects in the
 [convergent-systems-co](https://github.com/convergent-systems-co) org.
 
 > Use this template, don't fork it. Click **Use this template** above.
@@ -9,7 +9,6 @@ GitHub template repository for Go application projects in the
 
 - Go workspace skeleton under `src/` (`src/cmd/app`, `src/internal`, `src/pkg`, `src/plugins`)
 - Front-end site convention under `web/<site-name>/` (Astro default; see `web/README.md`)
-- Multi-stage distroless Dockerfile
 - Goreleaser config (cross-platform builds + SPDX SBOM via syft)
 - GitHub Actions: CI (lint/test/build), secret scan (trufflehog), release
 - Structured issue templates (bug / feature / RFC / chore)
@@ -18,7 +17,6 @@ GitHub template repository for Go application projects in the
 - Agentic issue triage via `repo-standards@v1` (Copilot primary, REST fallback)
 - Weekly label cleanup
 - ADR (MADR) starter, CHANGELOG (Keep-a-Changelog), Code of Conduct
-- DevContainer (Go + gh)
 - AGPL-3.0 license by default; seed issue 00 lets the consumer change it
 
 ## How to use
