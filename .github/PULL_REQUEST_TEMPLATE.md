@@ -11,7 +11,6 @@
 - [ ] Tests added / updated
 - [ ] `make test` passes locally
 - [ ] `make lint` passes locally
-- [ ] For infra: `make tf-plan ENV=dev` reviewed
 
 ## Related
 
