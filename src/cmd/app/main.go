@@ -19,7 +19,7 @@ func main() {
 }
 
 func run(ctx context.Context) error {
-	fmt.Println("hello from go-tf-app-template")
+	fmt.Println("hello from go-app-template")
 	<-ctx.Done()
 	if err := ctx.Err(); err != nil && err != context.Canceled {
 		return err
